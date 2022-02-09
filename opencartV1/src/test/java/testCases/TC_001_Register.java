@@ -59,6 +59,8 @@ public class TC_001_Register extends BaseClass{
 
 		logger.info("Finished TC_001_Register");
 		
+		//Testing the commit and push in remote git
+		
 	
 	}
 	
