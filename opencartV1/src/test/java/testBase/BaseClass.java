@@ -90,6 +90,7 @@ public class BaseClass {
 		File target= new File(System.getProperty("user.dir")+"\\screenshots\\"+tname+".png");
 		FileUtils.copyFile(source, target);
 
+		//commenting in the baseclass.
 	}
 	
 	
