@@ -36,7 +36,7 @@ public class TC_007_PdtComparison extends BaseClass {
 		
 		pdp.click_pdtComplnk();
 		
-		PdtComaprisonPage pcp=new PdtComaprisonPage(driver);
+	//	PdtComaprisonPage pcp=new PdtComaprisonPage(driver);
 		
 		
 //		pdp.PdtDetails();
@@ -50,17 +50,17 @@ public class TC_007_PdtComparison extends BaseClass {
 //		}
 		
 		
-		String text2=pcp.getPdtname();
+//		String text2=.getPdtname();
 		
-		if(text.equals(text2))
-		{
-			Assert.assertTrue(true);
-		}
-		else
-		{
-			Assert.assertTrue(false);
-		}
-		
+//		if(text.equals(text2))
+//		{
+//			Assert.assertTrue(true);
+//		}
+//		else
+//		{
+//			Assert.assertTrue(false);
+//		}
+//		
 		
 		
 		
